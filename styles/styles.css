@@ -31,16 +31,16 @@
   padding: 10px 15px;
   color: white;
   font-weight: 600;
+  transition: all 0.3s ease;
 }
 
 #hero-container a:hover {
-  transition: ease-in;
-  box-shadow: 0px 4px 19px rgba(89, 175, 255, 0.8);
-  transition: ease-in-out;
+  box-shadow: 0px 4px 19px rgba(89, 175, 255, 0.9);
 }
 
 #highlights {
   padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 #highlights img {
