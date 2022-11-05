@@ -1,0 +1,32 @@
+header {
+  position: static;
+}
+#page-logo a {
+  color: #59afff;
+}
+
+header a {
+  color: #59afff;
+}
+
+.cards {
+  justify-content: space-between;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.ab-card {
+  width: 50%;
+  height: 200px;
+  box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin-bottom: 100px;
+}
+
+.ab-card img {
+  margin: 25px 0px 0px 15px;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 45px rgba(29, 35, 166, 0.2);
+}
