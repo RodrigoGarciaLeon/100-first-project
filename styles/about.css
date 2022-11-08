@@ -2,31 +2,81 @@ header {
   position: static;
 }
 #page-logo a {
-  color: #59afff;
+  color: #292929;
 }
 
 header a {
-  color: #59afff;
+  color: #292929;
 }
 
-.cards {
+.main-row {
+  margin: 50px auto;
+  display: flex;
   justify-content: space-between;
   width: 1200px;
-  margin: auto;
-  display: flex;
 }
 
-.ab-card {
-  width: 50%;
-  height: 200px;
-  box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.1);
-  border-radius: 30px;
-  margin-bottom: 100px;
+.col-tittle p {
+  color: #101621;
+  width: 60%;
+  margin-top: 30px;
+  font-size: 20px;
+  margin-bottom: 60px;
 }
 
-.ab-card img {
-  margin: 25px 0px 0px 15px;
-  width: 200px;
-  border-radius: 20px;
-  box-shadow: 0px 4px 45px rgba(29, 35, 166, 0.2);
+.col-tittle h1 {
+  color: #101621;
+  font-size: 90px;
+  line-height: 100%;
+}
+
+.col-tittle h1 span {
+  position: relative;
+}
+
+.col-tittle h1 span::after {
+  content: "";
+  background-color: #ffeaa0;
+  position: absolute;
+  height: 15px;
+  width: 100%;
+  left: 0;
+  bottom: 30px;
+  z-index: -1;
+}
+
+.col-tittle h3 {
+  color: #101621;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.col-tittle a {
+  background-color: #2d2d2d;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  position: relative;
+}
+
+.col-tittle a:after {
+  margin-left: 40px;
+  content: "";
+  position: absolute;
+  background-color: white;
+  height: 2px;
+  width: 0%;
+  bottom: 20px;
+  left: 0;
+  transition: 0.3s ease;
+}
+
+.col-tittle a:hover::after {
+  width: 85px;
+}
+
+.col-tittle a:hover {
+  background-color: #040507db;
 }
