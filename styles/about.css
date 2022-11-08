@@ -16,6 +16,10 @@ header a {
   width: 1200px;
 }
 
+.main-row img {
+  height: 418px;
+}
+
 .col-tittle p {
   color: #101621;
   width: 60%;
